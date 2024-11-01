@@ -1,0 +1,318 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress Contest Creation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-21 15:10+0000\n"
+"PO-Revision-Date: 2017-04-21 15:48+0000\n"
+"Last-Translator: florian <florian@olyos.fr>\n"
+"Language-Team: French (France)\n"
+"Language: fr-FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: includes/admin_header.php:8
+msgid ""
+"Easily manage your white papers in WordPress with the plugin WordPress Livre "
+"Blanc, created by the Olyos  Web Agency"
+msgstr ""
+"Gérez facilement vos livres blancs dans WordPress avec le plugin WordPress "
+"Livre Blanc, créé par l'agence web Olyos"
+
+#. Name of the plugin
+msgid "Wordpress White Paper Manager"
+msgstr "Gestionnaire de livres blancs"
+
+#. Description of the plugin
+msgid ""
+"Organize white papers : personalize the way you present your paper, send "
+"your white paper by email,generate a list of email."
+msgstr ""
+"Organisez vos livres blancs : personnalisez leur présentation, envoyez les "
+"par email et générez une liste d'emails."
+
+#: olyos-livre-blanc.php:119 olyos-livre-blanc.php:119
+#: class/olyos_livreblanc_list.php:14
+msgid "White paper"
+msgstr "Livre blanc"
+
+#: olyos-livre-blanc.php:120 olyos-livre-blanc.php:120
+#: olyos-livre-blanc.php:175 includes/admin_column.php:48
+msgid "Informations"
+msgstr "Informations"
+
+#: olyos-livre-blanc.php:121 olyos-livre-blanc.php:121
+#: olyos-livre-blanc.php:176
+msgid "White papers list"
+msgstr ""
+"Liste des livres blancs\n"
+
+#: olyos-livre-blanc.php:122 olyos-livre-blanc.php:122
+#: olyos-livre-blanc.php:186 includes/livreblanc_page.php:26
+msgid "Add new white paper"
+msgstr "Ajouter un livre blanc"
+
+#: olyos-livre-blanc.php:123 olyos-livre-blanc.php:177
+msgid "View downloads"
+msgstr "Voir les téléchargements"
+
+#: olyos-livre-blanc.php:133 olyos-livre-blanc.php:140
+#: olyos-livre-blanc.php:147 olyos-livre-blanc.php:154
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n'avez pas les permissions suffisantes pour accéder à cette page."
+
+#: olyos-livre-blanc.php:219
+msgid "No id attribute found."
+msgstr "Pas d'attribut \"id\" trouvé."
+
+#: olyos-livre-blanc.php:226
+msgid "Shortcode ID unknown: "
+msgstr "id de shortcode inconnu :"
+
+#: includes/infos_livreblanc_page.php:7
+msgid "Plugin informations"
+msgstr "Informations du plugin"
+
+#: includes/process_livreblanc_form.php:26
+msgid "Error while saving to database"
+msgstr "Erreur lors de la sauvegarde dans la base de donnée"
+
+#: includes/process_livreblanc_form.php:35
+msgid "White paper Modified."
+msgstr "Livre blanc modifié."
+
+#: includes/livreblanc_edit_display_form.php:9
+msgid "Your white paper name"
+msgstr "Le nom de votre livre blanc"
+
+#: includes/livreblanc_edit_display_form.php:15
+msgid "Shortcode : "
+msgstr "Shortcode :"
+
+#: includes/livreblanc_edit_display_form.php:29
+#: includes/livreblanc_edit_display_form.php:34
+msgid "White paper file : "
+msgstr "Fichier du livre blanc :"
+
+#: includes/livreblanc_edit_display_form.php:50
+msgid "Social block title : "
+msgstr "Titre du bloc réseaux sociaux :"
+
+#: includes/livreblanc_edit_display_form.php:54
+msgid "Facebook : "
+msgstr "Facebook :"
+
+#: includes/livreblanc_edit_display_form.php:57
+msgid "Insert the iframe of your Facebook page. "
+msgstr "Insérez l'iframe de votre page facebook. "
+
+#: includes/livreblanc_edit_display_form.php:57
+msgid "See documentation"
+msgstr "Voir la documentation"
+
+#: includes/livreblanc_edit_display_form.php:61
+msgid "Twitter : "
+msgstr "Twitter :"
+
+#: includes/livreblanc_edit_display_form.php:64
+msgid "Insert the url of your tweet."
+msgstr "Insérez l'url de votre tweet."
+
+#: includes/livreblanc_edit_display_form.php:76
+msgid "Form block title : "
+msgstr "Titre du bloc formulaire :"
+
+#: includes/livreblanc_edit_display_form.php:81
+msgid "Display newsletter checkbox : "
+msgstr "Afficher l'inscription à la newsletter :"
+
+#: includes/livreblanc_edit_display_form.php:92
+msgid "Save white paper"
+msgstr "Sauvegarder le livre blanc"
+
+#: includes/livreblanc_page.php:26
+msgid "Modify white paper"
+msgstr "Modifier le livre blanc"
+
+#: includes/downloads_list_page.php:11
+msgid "List of your white papers downloads"
+msgstr "Liste des téléchargements de vos livres blancs"
+
+#: includes/downloads_list_page.php:19
+msgid "White paper name : "
+msgstr "Nom du livre blanc :"
+
+#: includes/downloads_list_page.php:32
+msgid "Select white paper"
+msgstr "Sélectionnez un livre blanc"
+
+#: includes/downloads_list_page.php:42
+msgid "Generate email list signed to newsletter : "
+msgstr "Générer une liste des email enregistrés à la newsletter :"
+
+#: includes/downloads_list_page.php:43
+msgid "Generate"
+msgstr "Générer"
+
+#: includes/admin_column.php:7
+msgid "About us"
+msgstr "À propos"
+
+#: includes/admin_column.php:9 class/olyos_livreblanc_shortcode.php:79
+msgid "Wordpress plugins creation - Nantes Web Agency"
+msgstr "Création de plugins WordPress - Agence Web Nantes"
+
+#: includes/admin_column.php:13
+msgid "Nantes Web Agency"
+msgstr "Agence Web Nantes"
+
+#: includes/admin_column.php:13
+msgid "Digital strategy, custom creation of corporate and e-commerce websites."
+msgstr ""
+"Stratégie digitale, création de site internet vigrine et e-commerce sur "
+"mesure"
+
+#: includes/admin_column.php:17
+msgid "Expertise and support for your <strong>digital strategy</strong>"
+msgstr ""
+"Expertise et accompagnement de votre <strong>stratégie digitale</strong>"
+
+#: includes/admin_column.php:18
+msgid ""
+"Creation of custom <strong>corporate</strong> and <strong>e-commerce</strong>"
+" websites"
+msgstr ""
+"Création de <strong>site vitrine</strong> et <strong>e-commerce</strong> sur "
+"mesure"
+
+#: includes/admin_column.php:19
+msgid "Wordpress & Prestashop <strong>Plugins</strong> Development"
+msgstr "Développement de <strong>Plugins</strong> Wordpress & Prestashop"
+
+#: includes/admin_column.php:20
+msgid "Social networks & SEO <strong>support</strong>"
+msgstr "<strong>Accompagnement</strong> réseaux sociaux & référencement"
+
+#: includes/admin_column.php:22 includes/admin_column.php:23
+msgid "Contact us"
+msgstr "Nous contacter"
+
+#: includes/admin_column.php:28
+msgid "News web, webdesign, graphic design"
+msgstr "Actualité web, web design et graphisme"
+
+#: includes/admin_column.php:39
+msgid "Community"
+msgstr "Communauté"
+
+#: includes/list_livreblanc_page.php:13
+msgid "List of your white papers"
+msgstr "Liste de vos livres blancs"
+
+#: includes/admin_header.php:7
+msgid "WordPress White Paper Plugin"
+msgstr "Plugin WordPress livre blanc"
+
+#: class/olyos_livreblanc_shortcode.php:53
+msgid "Could not fetch twitter url."
+msgstr "Impossible de trouver l'url twitter."
+
+#: class/olyos_livreblanc_shortcode.php:71
+msgid "Could not register your participation, try again."
+msgstr "Impossible d'enregistrer votre participation, essayez encore."
+
+#: class/olyos_livreblanc_shortcode.php:78
+msgid "By "
+msgstr "Par"
+
+#: class/olyos_livreblanc_shortcode.php:80
+msgid "News webdesign"
+msgstr "Actualités webdesign"
+
+#: class/olyos_livreblanc_shortcode.php:93 class/olyos_downloads_list.php:71
+msgid "Email"
+msgstr "Email"
+
+#: class/olyos_livreblanc_shortcode.php:96
+msgid "Subscribe to our newsletter"
+msgstr "Inscrivez-vous à notre newsletter"
+
+#: class/olyos_livreblanc_shortcode.php:99
+msgid "Send me the white paper"
+msgstr "Envoyez-moi le livre blanc"
+
+#: class/olyos_livreblanc_shortcode.php:108
+msgid "Your subscription has been received."
+msgstr "Votre inscription a bien été prise en compte."
+
+#: class/olyos_livreblanc_shortcode.php:177
+msgid "An email has been sent to your address"
+msgstr "Un e-mail vous a été envoyé"
+
+#: class/olyos_livreblanc_shortcode.php:179
+msgid "An error occured, the email could not be send"
+msgstr "Une erreur est survenue, l'e-mail n'a pas pu être envoyé"
+
+#: class/olyos_livreblanc_list.php:15
+msgid "White papers"
+msgstr "Livres blancs"
+
+#: class/olyos_livreblanc_list.php:60
+msgid "Edit"
+msgstr "Modifier"
+
+#: class/olyos_livreblanc_list.php:74
+msgid "View participants"
+msgstr ""
+"Voir les participants\n"
+
+#: class/olyos_livreblanc_list.php:98 class/olyos_downloads_list.php:69
+msgid "ID"
+msgstr "ID"
+
+#: class/olyos_livreblanc_list.php:99
+msgid "Name"
+msgstr "Nom"
+
+#: class/olyos_livreblanc_list.php:100
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: class/olyos_livreblanc_list.php:101
+msgid "Participant count"
+msgstr "Nombre de participants"
+
+#: class/olyos_livreblanc_list.php:117
+msgid "Delete"
+msgstr "Supprimer"
+
+#: class/olyos_downloads_list.php:14
+msgid "Download"
+msgstr "Téléchargement"
+
+#: class/olyos_downloads_list.php:15
+msgid "Downloads"
+msgstr "Téléchargements"
+
+#: class/olyos_downloads_list.php:70
+msgid "White paper ID"
+msgstr "ID Livre Blanc"
+
+#: class/olyos_downloads_list.php:72
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: class/olyos_downloads_list.php:73
+msgid "IP"
+msgstr "IP"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.olyos.fr"
+msgstr "https://www.olyos.fr"
+
+#. Author of the plugin
+msgid "Olyos - Web Agency"
+msgstr "Agence Web Olyos"

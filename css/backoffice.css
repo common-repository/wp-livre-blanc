@@ -1,0 +1,296 @@
+#livreblanc-header {
+    margin-bottom: 15px;
+}
+
+#livreblanc-header::before {
+    content: "";
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    background-image: url("../img/logo.png");
+    vertical-align: middle;
+}
+
+#livreblanc-header p {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#livreblanc-header span {
+    display: block;
+}
+
+#livreblanc-header span:first-child {
+    font-size: 22px;
+}
+
+/*
+* 2 columns
+*/
+#livreblanc-content-main {
+    width: 60%;
+    float: left;
+}
+#livreblanc-content-aside {
+    width: calc(40% - 20px);
+    float: left;
+    margin-left: 20px;
+}
+
+@media (max-width: 1000px) {
+    #livreblanc-content-main {
+        float: none;
+        width: 100%;
+    }
+    #livreblanc-content-aside {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/*
+* Tab
+*/
+#livreblanc-add-tab {
+    background-color: #0085ba;
+    color: #fff;
+}
+
+#livreblanc-add-tab:hover {
+    background-color: #008ec2;
+}
+
+/*
+* Right column
+*/
+#side-sortables .postbox {
+    padding: 15px 30px;
+}
+
+#side-sortables h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 0 15px;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+#side-sortables .voter h3 {
+    margin-bottom: 12px;
+}
+
+#side-sortables .voter .stars {
+    color: #ffb900;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
+
+#side-sortables .voter #rate-plugin {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    background-color: #ffb900;
+    color: #fff;
+    text-shadow: 1px 1px 1px #9d7303;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 6px 0;
+}
+
+#side-sortables .voter #rate-plugin:hover {
+    background-color: #f0ae00;
+}
+
+#side-sortables ul {
+    margin-left: 10px;
+}
+
+#side-sortables hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 15px;
+}
+
+#olyosfr > a:first-child, #olybopfr > a {
+    display: block;
+    color: #444;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+#olyosfr > a > img, #olybopfr > a > img {
+    display: inline-block;
+}
+
+#olyosfr > a > div, #olybopfr > a > div {
+    display: inline-block;
+    width: calc(100% - 65px);
+    margin-left: 10px;
+}
+
+#olyosfr h4, #olybopfr h4 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+#olyosfr p, #olybopfr p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+#contact-us {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    background-color: #67C124;
+    color: #fff;
+    text-shadow: 1px 1px 1px #3A7112;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 6px 0;
+}
+
+#contact-us:hover {
+    background-color: #5BAB1F;
+}
+
+#side-sortables .community p {
+    text-align: center;
+}
+#side-sortables .facebook,
+#side-sortables .twitter {
+    display: inline-block;
+    height: 26px;
+    width: 100%;
+    max-width: 124px;
+    line-height: 26px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #777;
+    padding-left: 26px;
+    text-decoration: none;
+}
+#side-sortables .facebook {
+    background-image: url("../img/fb.png");
+}
+
+#side-sortables .twitter {
+    background-image: url("../img/twitter.png");
+}
+
+/*
+* Pages
+*/
+.toplevel_page_livreblanc-infos .postbox ul {
+    margin-left: 32px;
+}
+
+.toplevel_page_livreblanc-infos .postbox li {
+    list-style: initial;
+}
+
+.toplevel_page_livreblanc-infos .postbox iframe {
+    float: right;
+    margin-left: 12px;
+    width: 560px;
+    height: 315px;
+}
+
+@media (max-width: 600px) {
+    .toplevel_page_livreblanc-infos .postbox iframe {
+        width: 300px;
+        height: 168px;
+    }
+}
+
+@media (max-width: 1800px) {
+    .toplevel_page_livreblanc-infos .postbox iframe {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.livreblanc_page_livreblanc #livreblanc-shortcode {
+    text-align: right;
+}
+
+.livreblanc_page_livreblanc #livreblanc-shortcode input {
+    background-color: #67C124;
+    color: #fff;
+    font-size: 18px;
+}
+
+.livreblanc_page_livreblanc #wp-description-wrap {
+    padding-top: 35px;
+    margin-bottom: 20px;
+}
+
+.livreblanc_page_livreblanc #social-title {
+    width: 100%;
+}
+
+.livreblanc_page_livreblanc #social_options textarea {
+    width: 100%;
+}
+
+.livreblanc_page_livreblanc #form-title {
+    width: 100%;
+}
+
+.livreblanc_page_livreblanc #contest-terms {
+    width: 100%;
+}
+
+.olyos-green {
+    color: #72C626;
+    font-weight: 600;
+}
+
+.wp-livre-blanc_page_livreblanc-participant-list .choice-box {
+    max-width: 440px;
+    float: left;
+    width: calc(33.33% - 12px);
+    margin-right: 12px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.wp-livre-blanc_page_livreblanc-participant-list .choice-box .button-primary {
+    width: 100%;
+}
+
+.wp-livre-blanc_page_livreblanc-participant-list #select-concours select,
+.wp-livre-blanc_page_livreblanc-participant-list #winners-number {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.wp-livre-blanc_page_livreblanc-participant-list #select-newsletter p {
+    margin-bottom: 54px;
+}
+
+@media (max-width: 1020px) {
+    .wp-livre-blanc_page_livreblanc-participant-list .choice-box {
+        float: none;
+        width: auto;
+        margin-right: 0;
+    }
+}
+
+.wp-livre-blanc_page_livreblanc-participant-list .message {
+    clear: both;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 12px;
+}
